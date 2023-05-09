@@ -19,6 +19,7 @@ export const validatePassword = (password: string) => {
     valid: true,
     message: '',
   };
+
   if (!password) {
     throw new Error(MISSING_PASSWORD_ERROR_MSG);
   }
