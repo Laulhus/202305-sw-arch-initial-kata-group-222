@@ -5,6 +5,7 @@ import {
   PASSWORD_MUST_CONTAIN_CAPITAL,
   PASSWORD_MUST_CONTAIN_SPECIAL,
 } from './index';
+
 import { validatePassword } from './validatePassword';
 
 describe('Given a password validation', () => {
